@@ -1,0 +1,96 @@
+table data
+	lineageTag: 595ad759-d7b8-4501-8bb9-1171888158cc
+
+	column Name
+		dataType: string
+		lineageTag: 2a7cafc6-dbe2-4c67-9248-490a90f65c47
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: daab5ff1-7b1a-4fdf-b8c2-d61444cd725e
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department
+		dataType: string
+		lineageTag: 7d4bbe00-5407-4c4b-aaaf-7346ec9592b8
+		summarizeBy: none
+		sourceColumn: Department
+
+		annotation SummarizationSetBy = Automatic
+
+	column Age
+		dataType: int64
+		formatString: 0
+		lineageTag: d520773c-298d-4a74-a3c9-75e7736a3349
+		summarizeBy: sum
+		sourceColumn: Age
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date Joined'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 450e3f07-3068-48c8-857f-36e02e0ab570
+		summarizeBy: none
+		sourceColumn: Date Joined
+
+		variation Variation
+			isDefault
+			relationship: 6abfeda8-b7a0-4ffa-a49c-124900442b4e
+			defaultHierarchy: LocalDateTable_6270dc56-d4a5-4290-920e-e8ce45d44264.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Salary
+		dataType: int64
+		formatString: 0
+		lineageTag: 5c8b4262-13a6-4382-829e-16264b9b0ca9
+		summarizeBy: sum
+		sourceColumn: Salary
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rating
+		dataType: int64
+		formatString: 0
+		lineageTag: 17439149-e530-4b8e-bbb3-19c3bbef8da5
+		summarizeBy: sum
+		sourceColumn: Rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column Manager
+		dataType: string
+		lineageTag: 85ddf8ac-23e4-422a-8282-37949308f612
+		summarizeBy: none
+		sourceColumn: Manager
+
+		annotation SummarizationSetBy = Automatic
+
+	partition data = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\Chidinma.obi\OneDrive\Documents\Data set.xlsx"), null, true),
+				    data_Table = Source{[Item="data",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(data_Table,{{"Name", type text}, {"Gender", type text}, {"Department", type text}, {"Age", Int64.Type}, {"Date Joined", type date}, {"Salary", Int64.Type}, {"Rating", Int64.Type}, {"Manager", type text}}),
+				    #"Replaced Value" = Table.ReplaceValue(#"Changed Type","Carla","Ezenwa",Replacer.ReplaceText,{"Manager"}),
+				    #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value","Ian","Asa",Replacer.ReplaceText,{"Manager"}),
+				    #"Replaced Value2" = Table.ReplaceValue(#"Replaced Value1","FRED","Chidinma",Replacer.ReplaceText,{"Manager"}),
+				    #"Replaced Value3" = Table.ReplaceValue(#"Replaced Value2","Fred","Chidinma",Replacer.ReplaceText,{"Manager"})
+				in
+				    #"Replaced Value3"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

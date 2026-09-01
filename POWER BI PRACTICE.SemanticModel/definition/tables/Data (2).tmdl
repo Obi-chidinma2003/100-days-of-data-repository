@@ -1,0 +1,667 @@
+table 'Data (2)'
+	lineageTag: ebfcabdb-dece-456c-b9df-aada1898d53f
+
+	column Column17
+		dataType: string
+		lineageTag: 91f65e3e-1b6e-4648-b797-ced5ea185ec2
+		summarizeBy: none
+		sourceColumn: Column17
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column18
+		dataType: string
+		lineageTag: 39a9e32f-1b80-4a8f-844c-3e76491227c1
+		summarizeBy: none
+		sourceColumn: Column18
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column19
+		dataType: string
+		lineageTag: c1098dc3-72e5-471d-b9eb-76d6bb5f4d6e
+		summarizeBy: none
+		sourceColumn: Column19
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column26
+		dataType: string
+		lineageTag: f46eb67f-48b0-4bdc-8030-f2015a703e13
+		summarizeBy: none
+		sourceColumn: Column26
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column27
+		dataType: string
+		lineageTag: 77159ca0-3144-4450-adc7-a5d892c4907e
+		summarizeBy: none
+		sourceColumn: Column27
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column36
+		dataType: string
+		lineageTag: 22fd2b16-6d7d-49ba-8751-34abb9bab5a7
+		summarizeBy: none
+		sourceColumn: Column36
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column37
+		dataType: string
+		lineageTag: a250a47e-25cc-49ff-9a73-943064fe0897
+		summarizeBy: none
+		sourceColumn: Column37
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column38
+		dataType: string
+		lineageTag: 1fc0dc4f-3eae-43d8-bbd7-6c321609b7b3
+		summarizeBy: none
+		sourceColumn: Column38
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column47
+		dataType: string
+		lineageTag: fa341769-c5bc-4943-940d-9c20283662d8
+		summarizeBy: none
+		sourceColumn: Column47
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column50
+		dataType: string
+		lineageTag: 074dfcb7-7bd6-41ad-9b84-3fdd23f3285c
+		summarizeBy: none
+		sourceColumn: Column50
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column51
+		dataType: string
+		lineageTag: 763f4ad2-c4fd-4ecb-9996-76a59f93d68f
+		summarizeBy: none
+		sourceColumn: Column51
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column55
+		dataType: string
+		lineageTag: 14a7d270-71f4-466e-a76e-f97eea2ddfb3
+		summarizeBy: none
+		sourceColumn: Column55
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column56
+		dataType: string
+		lineageTag: c8f8c706-7a20-4632-9c34-f6056f93a0cf
+		summarizeBy: none
+		sourceColumn: Column56
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column57
+		dataType: string
+		lineageTag: 0c48d30e-3f35-4bcd-b350-3e43da860132
+		summarizeBy: none
+		sourceColumn: Column57
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column66
+		dataType: string
+		lineageTag: b4de7491-71c5-4519-964f-92d4f6133f55
+		summarizeBy: none
+		sourceColumn: Column66
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column67
+		dataType: string
+		lineageTag: 196d53ba-273d-4e16-a81c-7a4b593493aa
+		summarizeBy: none
+		sourceColumn: Column67
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column69
+		dataType: string
+		lineageTag: 0582b162-3cc4-4195-b984-0b4c1c69d5ba
+		summarizeBy: none
+		sourceColumn: Column69
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column70
+		dataType: string
+		lineageTag: b01c6029-bd4e-4efa-8dad-9cd54184a17e
+		summarizeBy: none
+		sourceColumn: Column70
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column72
+		dataType: string
+		lineageTag: 8c1f6071-c4d0-4cf2-b667-5f9aeca944cc
+		summarizeBy: none
+		sourceColumn: Column72
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column73
+		dataType: string
+		lineageTag: ec70086c-2b76-4b63-a88f-d0c1aca58ca2
+		summarizeBy: none
+		sourceColumn: Column73
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column74
+		dataType: string
+		lineageTag: f604f1c9-eb65-4498-a584-9d2767b7e1e8
+		summarizeBy: none
+		sourceColumn: Column74
+
+		annotation SummarizationSetBy = Automatic
+
+	column Name
+		dataType: string
+		lineageTag: 0bc8ecfb-edcf-4918-ba29-4610a0669ed5
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: 9b7465f5-9b17-43be-9a9b-3c3b467c8cb9
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column Department
+		dataType: string
+		lineageTag: 4df20f34-1241-4e2c-8073-7d521ab05766
+		summarizeBy: none
+		sourceColumn: Department
+
+		annotation SummarizationSetBy = Automatic
+
+	column Age
+		dataType: int64
+		formatString: 0
+		lineageTag: f6e237b7-aa41-4e1f-9ba1-57603025d696
+		summarizeBy: sum
+		sourceColumn: Age
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date Joined'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 6f61ce97-bfc6-4f50-a7da-7640a54a69f2
+		summarizeBy: none
+		sourceColumn: Date Joined
+
+		variation Variation
+			isDefault
+			relationship: 874462a0-3339-4305-869c-a9ff1157797b
+			defaultHierarchy: LocalDateTable_2f2c2e24-9af0-4581-801e-3f26dd79a070.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Salary
+		dataType: int64
+		formatString: 0
+		lineageTag: 5302825d-b210-4903-9f7c-6ec80f8f3950
+		summarizeBy: sum
+		sourceColumn: Salary
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rating
+		dataType: int64
+		formatString: 0
+		lineageTag: 7416a0da-1fc9-40ad-8d87-d5eb647ef312
+		summarizeBy: sum
+		sourceColumn: Rating
+
+		annotation SummarizationSetBy = Automatic
+
+	column Manager
+		dataType: string
+		lineageTag: 434297b6-d98a-4dac-a8b3-e16a456ad0b6
+		summarizeBy: none
+		sourceColumn: Manager
+
+		annotation SummarizationSetBy = Automatic
+
+	column 3
+		dataType: int64
+		formatString: 0
+		lineageTag: 6a9563a1-f41b-4634-9fd3-17ca65b7a6cf
+		summarizeBy: sum
+		sourceColumn: 3
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ches Bonnell'
+		dataType: string
+		lineageTag: 11786ee5-87b5-4b25-aa63-1d1224426980
+		summarizeBy: none
+		sourceColumn: Ches Bonnell
+
+		annotation SummarizationSetBy = Automatic
+
+	column Procurement
+		dataType: string
+		lineageTag: 891fafe2-d675-46b5-921c-d65098ff865d
+		summarizeBy: none
+		sourceColumn: Procurement
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column21
+		dataType: string
+		lineageTag: 98fa0b1f-7c79-4b3c-b94c-2f7656590130
+		summarizeBy: none
+		sourceColumn: Column21
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column22
+		dataType: string
+		lineageTag: c9da55f0-2172-4d86-8191-25ae9e986459
+		summarizeBy: none
+		sourceColumn: Column22
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Procurement Carla'
+		dataType: string
+		lineageTag: 2e6e2851-7ce9-4f76-a57f-893d987eb957
+		summarizeBy: none
+		sourceColumn: Procurement Carla
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column24
+		dataType: string
+		lineageTag: 8fcbdf1f-26db-4414-952d-063b72cb7624
+		summarizeBy: none
+		sourceColumn: Column24
+
+		annotation SummarizationSetBy = Automatic
+
+	column Finance
+		dataType: string
+		lineageTag: 81a0859d-bc7e-4ca7-a87c-5caafcb55558
+		summarizeBy: none
+		sourceColumn: Finance
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ewart Laphorn'
+		dataType: string
+		lineageTag: 2a2cb716-5988-4ab2-9f3c-e0a54b714804
+		summarizeBy: none
+		sourceColumn: Ewart Laphorn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Female
+		dataType: string
+		lineageTag: 0b2d2e2e-14ea-4090-a46d-8a89660051bf
+		summarizeBy: none
+		sourceColumn: Female
+
+		annotation SummarizationSetBy = Automatic
+
+	column HR
+		dataType: string
+		lineageTag: 193879bc-ef01-49ee-bf16-79cc503a86e8
+		summarizeBy: none
+		sourceColumn: HR
+
+		annotation SummarizationSetBy = Automatic
+
+	column 27
+		dataType: int64
+		formatString: 0
+		lineageTag: cf68b639-5286-4735-8eac-30f6fd0de5bc
+		summarizeBy: sum
+		sourceColumn: 27
+
+		annotation SummarizationSetBy = Automatic
+
+	column 42478
+		dataType: int64
+		formatString: 0
+		lineageTag: 20942a26-fe86-4ef9-ad42-37845373b50a
+		summarizeBy: sum
+		sourceColumn: 42478
+
+		annotation SummarizationSetBy = Automatic
+
+	column 119110
+		dataType: int64
+		formatString: 0
+		lineageTag: 32086ec3-bb99-4a38-843e-8d784d9bc87b
+		summarizeBy: sum
+		sourceColumn: 119110
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2
+		dataType: int64
+		formatString: 0
+		lineageTag: a512c30b-e1ca-4021-8af4-6511496f994b
+		summarizeBy: sum
+		sourceColumn: 2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Carla
+		dataType: string
+		lineageTag: 81ffda19-9631-4263-b18c-1abbd7e27fd8
+		summarizeBy: none
+		sourceColumn: Carla
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Benny Karolovsky'
+		dataType: string
+		lineageTag: f3931792-7b27-4de9-8823-60222b4fa9e7
+		summarizeBy: none
+		sourceColumn: Benny Karolovsky
+
+		annotation SummarizationSetBy = Automatic
+
+	column 0
+		dataType: string
+		lineageTag: d1409368-e01e-4672-8697-dc9cd843c74d
+		summarizeBy: none
+		sourceColumn: 0
+
+		annotation SummarizationSetBy = Automatic
+
+	column Finance_1
+		dataType: string
+		lineageTag: 44f3c6d3-1140-468e-864c-787def6f0d9e
+		summarizeBy: none
+		sourceColumn: Finance_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 37
+		dataType: int64
+		formatString: 0
+		lineageTag: 4d59a8b7-36ea-4b05-b1c2-bcfb4588f317
+		summarizeBy: sum
+		sourceColumn: 37
+
+		annotation SummarizationSetBy = Automatic
+
+	column 42501
+		dataType: int64
+		formatString: 0
+		lineageTag: 82a552c4-6b07-4ecf-9506-98beba49ef50
+		summarizeBy: sum
+		sourceColumn: 42501
+
+		annotation SummarizationSetBy = Automatic
+
+	column 115440
+		dataType: int64
+		formatString: 0
+		lineageTag: bee93944-16f9-4b6a-8491-2214ab3822aa
+		summarizeBy: sum
+		sourceColumn: 115440
+
+		annotation SummarizationSetBy = Automatic
+
+	column 3_2
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c9f5797-4619-4a35-b3da-b17ef8790335
+		summarizeBy: sum
+		sourceColumn: 3_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cynthia
+		dataType: string
+		lineageTag: 42c8699a-8703-4fcd-8e48-e6471069095a
+		summarizeBy: none
+		sourceColumn: Cynthia
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column48
+		dataType: string
+		lineageTag: 8773f4c2-2bf6-4c39-964c-c7615a79753e
+		summarizeBy: none
+		sourceColumn: Column48
+
+		annotation SummarizationSetBy = Automatic
+
+	column 1
+		dataType: int64
+		formatString: 0
+		lineageTag: 79df7bf3-94b6-42d8-a25e-e19eb5843cf6
+		summarizeBy: sum
+		sourceColumn: 1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 1_3
+		dataType: int64
+		formatString: 0
+		lineageTag: b5c2805d-135f-48fa-b4f1-2524ab02b1c8
+		summarizeBy: sum
+		sourceColumn: 1_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2_4
+		dataType: int64
+		formatString: 0
+		lineageTag: e2e74fdb-7a7b-4f23-8cf6-05e15eaf58f1
+		summarizeBy: sum
+		sourceColumn: 2_4
+
+		annotation SummarizationSetBy = Automatic
+
+	column 3_5
+		dataType: int64
+		formatString: 0
+		lineageTag: 741ba665-9670-4a8d-bd8a-585486b4b242
+		summarizeBy: sum
+		sourceColumn: 3_5
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Ewart Laphorn_6'
+		dataType: string
+		lineageTag: f67dfe92-ff5e-4932-bba2-ef1c2d515abc
+		summarizeBy: none
+		sourceColumn: Ewart Laphorn_6
+
+		annotation SummarizationSetBy = Automatic
+
+	column Female_7
+		dataType: string
+		lineageTag: 999b94ee-b07f-4f5e-9d65-2a4e7e0232ee
+		summarizeBy: none
+		sourceColumn: Female_7
+
+		annotation SummarizationSetBy = Automatic
+
+	column HR_8
+		dataType: string
+		lineageTag: ac1f8aaf-d509-4361-af05-fdacec928f34
+		summarizeBy: none
+		sourceColumn: HR_8
+
+		annotation SummarizationSetBy = Automatic
+
+	column 27_9
+		dataType: int64
+		formatString: 0
+		lineageTag: 13b9899b-97f7-41d6-8f57-a7f46e9614ad
+		summarizeBy: sum
+		sourceColumn: 27_9
+
+		annotation SummarizationSetBy = Automatic
+
+	column 42478_10
+		dataType: int64
+		formatString: 0
+		lineageTag: 1846612c-c355-41e8-ad1a-d771ceaa122f
+		summarizeBy: sum
+		sourceColumn: 42478_10
+
+		annotation SummarizationSetBy = Automatic
+
+	column 119110_11
+		dataType: int64
+		formatString: 0
+		lineageTag: 5bd6d2a6-d182-4702-ab83-809e0ecfd527
+		summarizeBy: sum
+		sourceColumn: 119110_11
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2_12
+		dataType: int64
+		formatString: 0
+		lineageTag: 52ff46ec-2564-4066-8fee-47d959403ccf
+		summarizeBy: sum
+		sourceColumn: 2_12
+
+		annotation SummarizationSetBy = Automatic
+
+	column Carla_13
+		dataType: string
+		lineageTag: 110fcda1-1c4b-479e-8cb1-1f6a5c2d7680
+		summarizeBy: none
+		sourceColumn: Carla_13
+
+		annotation SummarizationSetBy = Automatic
+
+	column '0.11199128745373943'
+		dataType: double
+		lineageTag: 118f2f9a-63c1-4740-8b25-54871149d009
+		summarizeBy: sum
+		sourceColumn: 0.11199128745373943
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Marney O''Breen'
+		dataType: string
+		lineageTag: b49832db-1cb5-4297-b904-16a475665487
+		summarizeBy: none
+		sourceColumn: Marney O'Breen
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Camilla Castle'
+		dataType: string
+		lineageTag: 26f6e14f-aba1-46a5-a0ca-5025045a6686
+		summarizeBy: none
+		sourceColumn: Camilla Castle
+
+		annotation SummarizationSetBy = Automatic
+
+	column Female_14
+		dataType: string
+		lineageTag: 6b2f567a-ed12-4646-a8dc-db84d0740b59
+		summarizeBy: none
+		sourceColumn: Female_14
+
+		annotation SummarizationSetBy = Automatic
+
+	column Website_15
+		dataType: string
+		lineageTag: fc5f66f3-888c-483b-88dc-0cb7c18c4a34
+		summarizeBy: none
+		sourceColumn: Website_15
+
+		annotation SummarizationSetBy = Automatic
+
+	column 33
+		dataType: int64
+		formatString: 0
+		lineageTag: e38117f8-8452-45eb-ab74-a9b12c387931
+		summarizeBy: sum
+		sourceColumn: 33
+
+		annotation SummarizationSetBy = Automatic
+
+	column 42731
+		dataType: int64
+		formatString: 0
+		lineageTag: 6a17f7fb-d5ec-4723-9087-bac8d78cab61
+		summarizeBy: sum
+		sourceColumn: 42731
+
+		annotation SummarizationSetBy = Automatic
+
+	column 75480
+		dataType: int64
+		formatString: 0
+		lineageTag: 85efbb02-8412-4bd0-bef9-7b77ce452948
+		summarizeBy: sum
+		sourceColumn: 75480
+
+		annotation SummarizationSetBy = Automatic
+
+	column 4
+		dataType: int64
+		formatString: 0
+		lineageTag: ce9ec176-a70c-4e17-8105-3e8629219bd2
+		summarizeBy: sum
+		sourceColumn: 4
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ian
+		dataType: string
+		lineageTag: da84c586-44f3-4a3d-8147-cc79d021792d
+		summarizeBy: none
+		sourceColumn: Ian
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Data (2)' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\Chidinma.obi\OneDrive\Documents\Data set.xlsx"), null, true),
+				    Data_Sheet = Source{[Item="Data",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Data_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"New Excel Functions - Examples", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type any}, {"Column5", type any}, {"Column6", type any}, {"Column7", type any}, {"Column8", type text}, {"Column9", type any}, {"Column10", type any}, {"Column11", type text}, {"Column12", type any}, {"Column13", type any}, {"FILTER Example", type text}, {"Column15", type text}, {"Column16", type text}, {"Column17", Int64.Type}, {"Column18", Int64.Type}, {"Column19", Int64.Type}, {"Column20", Int64.Type}, {"Column21", type text}, {"Column22", type any}, {"Column23", type text}, {"Column24", type any}, {"Column25", type text}, {"Column26", type any}, {"Column27", type any}, {"Column28", type any}, {"UNIQUE Example", type text}, {"Column30", type any}, {"Column31", type any}, {"Column32", type text}, {"Column33", type any}, {"SORT Example", type any}, {"Column35", type any}, {"Column36", type any}, {"Column37", type text}, {"Column38", type any}, {"Column39", type text}, {"Column40", Int64.Type}, {"Column41", Int64.Type}, {"Column42", Int64.Type}, {"Column43", Int64.Type}, {"Column44", type text}, {"Column45", type any}, {"Column46", type any}, {"Column47", type any}, {"SORTBY Example", type text}, {"Column49", type any}, {"Column50", type text}, {"Column51", Int64.Type}, {"Column52", Int64.Type}, {"Column53", Int64.Type}, {"Column54", Int64.Type}, {"Column55", type text}, {"Column56", type any}, {"Column57", type any}, {"SEQUENCE Example", Int64.Type}, {"Column59", type any}, {"Column60", type any}, {"Column61", Int64.Type}, {"Column62", Int64.Type}, {"Column63", Int64.Type}, {"Column64", type any}, {"Column65", type any}, {"Column66", type any}, {"Column67", type text}, {"Column68", type any}, {"Column69", type text}, {"Column70", Int64.Type}, {"Column71", Int64.Type}, {"Column72", Int64.Type}, {"Column73", Int64.Type}, {"Column74", type text}, {"Column75", type any}, {"Column76", type any}, {"RANDARRAY Example", type number}, {"Column78", type any}, {"Column79", type any}, {"Column80", type text}, {"Column81", type any}, {"Column82", type any}, {"Column83", type any}, {"Column84", type text}, {"Column85", type any}, {"Column86", type text}, {"Column87", Int64.Type}, {"Column88", Int64.Type}, {"Column89", Int64.Type}, {"Column90", Int64.Type}, {"Column91", type text}}),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"Column9", "Column10", "Column11", "Column12", "Column13", "Column21", "Column22", "Column24", "Column23"}),
+				    #"Promoted Headers1" = Table.PromoteHeaders(#"Removed Columns", [PromoteAllScalars=true]),
+				    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers1",{{"Column1", type text}, {"Column2", type text}, {"Column3", type text}, {"Column4", type any}, {"Column5", type any}, {"Column6", type any}, {"Column7", type any}, {"Column8", type text}, {"Column9", type text}, {"Column10", type text}, {"Column11", type text}, {"Column12", Int64.Type}, {"Column13", Int64.Type}, {"Column14", Int64.Type}, {"Column15", Int64.Type}, {"Column16", type text}, {"Column17", type any}, {"Column18", type any}, {"Column19", type any}, {"Column20", type text}, {"Column21", type any}, {"Column22", type any}, {"Column23", type text}, {"Column24", type any}, {"Column25", type any}, {"Column26", type any}, {"Column27", type any}, {"Column28", type text}, {"Column29", type any}, {"Column30", type text}, {"Column31", Int64.Type}, {"Column32", Int64.Type}, {"Column33", Int64.Type}, {"Column34", Int64.Type}, {"Column35", type text}, {"Column36", type any}, {"Column37", type any}, {"Column38", type any}, {"Column39", type text}, {"Column40", type any}, {"Column41", type text}, {"Column42", Int64.Type}, {"Column43", Int64.Type}, {"Column44", Int64.Type}, {"Column45", Int64.Type}, {"Column46", type text}, {"Column47", type any}, {"Column48", type any}, {"Column49", Int64.Type}, {"Column50", type any}, {"Column51", type any}, {"Column52", Int64.Type}, {"Column53", Int64.Type}, {"Column54", Int64.Type}, {"Column55", type any}, {"Column56", type any}, {"Column57", type any}, {"Column58", type text}, {"Column59", type any}, {"Column60", type text}, {"Column61", Int64.Type}, {"Column62", Int64.Type}, {"Column63", Int64.Type}, {"Column64", Int64.Type}, {"Column65", type text}, {"Column66", type any}, {"Column67", type any}, {"Column68", type number}, {"Column69", type any}, {"Column70", type any}, {"Column71", type text}, {"Column72", type any}, {"Column73", type any}, {"Column74", type any}, {"Column75", type text}, {"Column76", type any}, {"Column77", type text}, {"Column78", Int64.Type}, {"Column79", Int64.Type}, {"Column80", Int64.Type}, {"Column81", Int64.Type}, {"Column82", type text}}),
+				    #"Promoted Headers2" = Table.PromoteHeaders(#"Changed Type1", [PromoteAllScalars=true]),
+				    #"Changed Type2" = Table.TransformColumnTypes(#"Promoted Headers2",{{"Name", type text}, {"Gender", type text}, {"Department", type text}, {"Age", Int64.Type}, {"Date Joined", type date}, {"Salary", Int64.Type}, {"Rating", Int64.Type}, {"Manager", type text}, {"Dennison Crosswaite", type text}, {"Male", type text}, {"Website", type text}, {"26", Int64.Type}, {"42994", Int64.Type}, {"90700", Int64.Type}, {"3", Int64.Type}, {"Ches Bonnell", type text}, {"Column17", type any}, {"Column18", type any}, {"Column19", type any}, {"Procurement", type text}, {"Column21", type any}, {"Column22", type any}, {"Procurement Carla", type text}, {"Column24", type any}, {"Finance", type any}, {"Column26", type any}, {"Column27", type any}, {"Ewart Laphorn", type text}, {"Female", type any}, {"HR", type text}, {"27", Int64.Type}, {"42478", Int64.Type}, {"119110", Int64.Type}, {"2", Int64.Type}, {"Carla", type text}, {"Column36", type any}, {"Column37", type any}, {"Column38", type any}, {"Benny Karolovsky", type text}, {"0", type any}, {"Finance_1", type text}, {"37", Int64.Type}, {"42501", Int64.Type}, {"115440", Int64.Type}, {"3_2", Int64.Type}, {"Cynthia", type text}, {"Column47", type any}, {"Column48", type any}, {"1", Int64.Type}, {"Column50", type any}, {"Column51", type any}, {"1_3", Int64.Type}, {"2_4", Int64.Type}, {"3_5", Int64.Type}, {"Column55", type any}, {"Column56", type any}, {"Column57", type any}, {"Ewart Laphorn_6", type text}, {"Female_7", type any}, {"HR_8", type text}, {"27_9", Int64.Type}, {"42478_10", Int64.Type}, {"119110_11", Int64.Type}, {"2_12", Int64.Type}, {"Carla_13", type text}, {"Column66", type any}, {"Column67", type any}, {"0.11199128745373943", type number}, {"Column69", type any}, {"Column70", type any}, {"Marney O'Breen", type text}, {"Column72", type any}, {"Column73", type any}, {"Column74", type any}, {"Camilla Castle", type text}, {"Female_14", type any}, {"Website_15", type text}, {"33", Int64.Type}, {"42731", Int64.Type}, {"75480", Int64.Type}, {"4", Int64.Type}, {"Ian", type text}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type2", each true),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Filtered Rows",{"Dennison Crosswaite", "Male", "Website", "26", "42994", "90700"})
+				in
+				    #"Removed Columns1"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

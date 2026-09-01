@@ -1,0 +1,16 @@
+relationship 6abfeda8-b7a0-4ffa-a49c-124900442b4e
+	joinOnDateBehavior: datePartOnly
+	fromColumn: data.'Date Joined'
+	toColumn: LocalDateTable_6270dc56-d4a5-4290-920e-e8ce45d44264.Date
+
+relationship 874462a0-3339-4305-869c-a9ff1157797b
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Data (2)'.'Date Joined'
+	toColumn: LocalDateTable_2f2c2e24-9af0-4581-801e-3f26dd79a070.Date
+
+relationship 616308e6-69c7-eed8-637e-e4f61fc17756
+	crossFilteringBehavior: bothDirections
+	toCardinality: many
+	fromColumn: data.Gender
+	toColumn: 'Data (2)'.0
+
